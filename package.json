@@ -1,0 +1,45 @@
+{
+  "name": "demo-koa-ziji",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon",
+    "build": "rm -rf dist && tsc",
+    "p": "npm run build && pm2 start ./pm2.json"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@koa/cors": "^3.1.0",
+    "axios": "^0.21.1",
+    "cheerio": "^1.0.0-rc.5",
+    "dayjs": "^1.10.4",
+    "joi": "^17.4.0",
+    "jsonwebtoken": "^8.5.1",
+    "koa": "^2.13.1",
+    "koa-body": "^4.2.0",
+    "koa-compress": "^5.0.1",
+    "koa-router": "^10.0.0",
+    "lodash": "^4.17.21",
+    "md5": "^2.3.0",
+    "mongoose": "^5.11.18",
+    "node-schedule": "^2.0.0",
+    "nodemailer": "^6.5.0"
+  },
+  "devDependencies": {
+    "@types/koa-router": "^7.4.1",
+    "@types/node": "^14.14.31",
+    "@typescript-eslint/eslint-plugin": "^4.15.2",
+    "@typescript-eslint/parser": "^4.15.2",
+    "cross-env": "^7.0.3",
+    "eslint": "^7.20.0",
+    "eslint-config-standard": "^16.0.2",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^4.3.1",
+    "ts-node": "^9.1.1",
+    "typescript": "^4.2.2"
+  }
+}

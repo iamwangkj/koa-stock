@@ -1,0 +1,5 @@
+{
+  "watch": ["src"],
+  "exec": "cross-env DEBUG=koa* NODE_ENV=development TS_NODE_TRANSPILE_ONLY=true TS_NODE_FILES=true node --inspect=[::]:9949 -r ts-node/register -r tsconfig-paths/register ./src/app.ts",
+  "ext": "js ts json"
+}
